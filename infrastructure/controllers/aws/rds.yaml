@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: ack-rds-controller
+  name: ack-rds
   namespace: ack-system
 spec:
   interval: 10m

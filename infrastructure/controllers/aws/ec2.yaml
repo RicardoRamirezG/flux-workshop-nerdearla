@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: ack-ec2-controller
+  name: ack-ec2
   namespace: ack-system
 spec:
   interval: 10m
